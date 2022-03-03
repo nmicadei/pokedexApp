@@ -1,208 +1,37 @@
 <ion-header>
-  <ion-toolbar  color="red">
+  <ion-toolbar  color="am3">
     <ion-title>
       Tab 1
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  
-  <ion-searchbar placeholder="Buscar Pokemons"></ion-searchbar>
+<ion-content [fullscreen]="true" color="am2">
 
-  <ion-list>
-    <ion-item lines="full" class="ion-no-padding">
+  <ion-searchbar color="dark" placeholder="Buscar"></ion-searchbar>
 
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png">
-      </ion-thumbnail>
+  <ion-card color="am">
+    <img src="https://thumbs.gfycat.com/BaggyAbandonedBichonfrise-size_restricted.gif" alt="">
 
-      <ion-label>
-        <div>
-          <h3>Bulbasaur</h3>
-          <ion-badge color="grama">Grama</ion-badge>
-          <ion-badge color="veneno">Veneno</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="grama">
-        <ion-label>001</ion-label>
-      </ion-chip>
-
+    <ion-item color="amareloclaro">
+      <ion-icon name="musical-notes-outline"></ion-icon>
+      <ion-label class="ion-text-center">Quem são?</ion-label>
     </ion-item>
 
-    <ion-item lines="full" class="ion-no-padding">
+    <ion-card-content>
+      Arctic Monkeys é uma banda britânica de rock formada em 2002 nos subúrbios da cidade de Sheffield, na Inglaterra.
+      O grupo é formado por Alex Turner (vocal, guitarra), Matt Helders (bateria, backing vocal), Jamie Cook (guitarra)
+      e Nick O'Malley (baixo, backing vocal).
+      <br>
+      <br>
 
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png">
-      </ion-thumbnail>
-      
-      <ion-label>
-        <div>
-          <h3>Charmander</h3>
-          <ion-badge color="fogo">Fogo</ion-badge>
-        </div>
-      </ion-label>
+      A banda já lançou seis álbuns de estúdio: Whatever People Say I Am, That's What I'm Not (2006),
+      Favourite Worst Nightmare (2007), Humbug (2009), Suck It and See (2011), AM (2013) e Tranquility
+      Base Hotel & Casino (2018). Seu primeiro álbum foi o disco de estreia que vendeu mais rápido na história
+      das paradas de sucesso britânicas e, em 2013, a revista Rolling Stone o nomeou como o 30º melhor álbum de
+      todos os tempos.
+    </ion-card-content>
+  </ion-card>
 
-      <ion-chip color="fogo">
-        <ion-label>004</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-    <ion-item lines="full" class="ion-no-padding">
-
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png">
-      </ion-thumbnail>
-
-      <ion-label>
-        <div>
-          <h3>Squirtle</h3>
-          <ion-badge color="agua">Água</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="agua">
-        <ion-label>007</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-    <ion-item lines="full" class="ion-no-padding">
-
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png">
-      </ion-thumbnail>
-
-      <ion-label>
-        <div>
-          <h3>Pikachu</h3>
-          <ion-badge color="eletrico">Elétrico</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="eletrico">
-        <ion-label>025</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-    <ion-item lines="full" class="ion-no-padding">
-
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png">
-      </ion-thumbnail>
-
-      <ion-label>
-        <div>
-          <h3>Snorlax</h3>
-          <ion-badge color="normal">Normal</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="normal">
-        <ion-label>143</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-    <ion-item lines="full" class="ion-no-padding">
-
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png">
-      </ion-thumbnail>
-
-      <ion-label>
-        <div>
-          <h3>Clefairy</h3>
-          <ion-badge color="fada">Fada</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="fada">
-        <ion-label>035</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-    <ion-item lines="full" class="ion-no-padding">
-
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png">
-      </ion-thumbnail>
-
-      <ion-label>
-        <div>
-          <h3>Mewtwo</h3>
-          <ion-badge color="psy">Psíquico</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="psy">
-        <ion-label>150</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-    <ion-item lines="full" class="ion-no-padding">
-
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/644.png">
-      </ion-thumbnail>
-
-      <ion-label>
-        <div>
-          <h3>Zekrom</h3>
-          <ion-badge color="fogo">Dragão</ion-badge>
-          <ion-badge color="eletrico">Elétrico</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="dragao">
-        <ion-label>644</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-    <ion-item lines="full" class="ion-no-padding">
-
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/359.png">
-      </ion-thumbnail>
-
-      <ion-label>
-        <div>
-          <h3>Absol</h3>
-          <ion-badge color="darkk">Dark</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="darkk">
-        <ion-label>359</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-    <ion-item lines="full" class="ion-no-padding">
-
-      <ion-thumbnail slot="start">
-        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/158.png">
-      </ion-thumbnail>
-
-      <ion-label>
-        <div>
-          <h3>Totodile</h3>
-          <ion-badge color="agua">Água</ion-badge>
-        </div>
-      </ion-label>
-
-      <ion-chip color="agua">
-        <ion-label>158</ion-label>
-      </ion-chip>
-
-    </ion-item>
-
-  </ion-list>
 
 </ion-content>
